@@ -20,9 +20,9 @@ ChatAPI.message().broadcast("Message In Here");
 <h4>Chat with Color</h4>
 Use the color replace to blue
 ```
-ChatAPI.message().blue(sender, "Message in here")
+ChatAPI.message().blue(sender, "Message in here");
 ```
 <h4>Custom chat</h4>
 ```
-ChatAPI.message().custom(sender, color, "Message in here")
+ChatAPI.message().custom(sender, color, "Message in here");
 ```
