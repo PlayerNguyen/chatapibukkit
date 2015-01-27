@@ -7,8 +7,6 @@ Use API:<br>
 ```
 import com.playernguyen.ChatAPI;
 ```
-# Prefix
-You can edit prefix file from config.yml
 # Code
 <h4>Print to console.</h4>
 
