@@ -1,8 +1,11 @@
 # ChatAPI Bukkit
 Example Plugin ChatAPI Bukkit
 # Install
+You can download this plugin from <a href="#">Bukkit Page</a> and <a href="#">Spigot Page</a><br>
 Import the file from IDE With:<br>
-Eclipse: Right Mouse to Project -> Properties -> Java Build Path -> Add External JARs -> Select ChatAPI.jar -> OK
+<ul>
+  <li>Eclipse: Right Mouse to Project -> Properties -> Java Build Path -> Add External JARs -> Select ChatAPI.jar -> OK</li>
+</ul>
 Use API:<br>
 ```
 import com.playernguyen.ChatAPI;
@@ -25,4 +28,16 @@ ChatAPI.message().blue(sender, "Message in here");
 <h4>Custom chat</h4>
 ```
 ChatAPI.message().custom(sender, color, "Message in here");
+```
+<h4>Bold</h4>
+```
+ChatAPI.message().bold(sender, color, "Message In Here");
+```
+<h4>And etc</h4>
+```
+ChatAPI.message().magic(sender, color, "Message In Here");
+```
+# Example Code
+```
+
 ```
