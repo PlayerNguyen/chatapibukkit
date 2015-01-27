@@ -1,7 +1,7 @@
 # ChatAPI Bukkit
 Example Plugin ChatAPI Bukkit
 # Install
-You can download this plugin from <a href="#">Bukkit Page</a> and <a href="#">Spigot Page</a><br>
+You can download this plugin from <a href="http://dev.bukkit.org/bukkit-plugins/chat-api-dev/">Bukkit Page</a>
 Install the plugin to folder /plugin from server file
 Import the file from IDE With:<br>
 <ul>
