@@ -1,7 +1,7 @@
 # ChatAPI Bukkit
 Example Plugin ChatAPI Bukkit
 # Install
-You can download this plugin from <a href="http://dev.bukkit.org/bukkit-plugins/chat-api-dev/">Bukkit Page</a> and <a href="http://www.spigotmc.org/resources/chatapi.3500/">Spigot Page</a><br>
+You can download this plugin from <a href="#">Bukkit Page</a> and <a href="#">Spigot Page</a><br>
 Import the file from IDE With:<br>
 <ul>
   <li>Eclipse: Right Mouse to Project -> Properties -> Java Build Path -> Add External JARs -> Select ChatAPI.jar -> OK</li>
@@ -37,7 +37,46 @@ ChatAPI.message().bold(sender, color, "Message In Here");
 ```
 ChatAPI.message().magic(sender, color, "Message In Here");
 ```
+# Remember
+Add to message
+```
+return boolean;
+```
+Replace boolean to True/False
 # Example Code
 ```
+/*
+ * This is example Message
+ */
 
+public class example extends JavaPlugin{
+	
+	ChatAPI capi = ChatAPI.message();
+	
+	public void onEnable(){
+		capi.log("Message log");
+	}
+	
+	// Command 
+	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] arrays){
+		if(label.equalsIgnoreCase("example")){
+		    // Custom Message
+			capi.custom(sender, ChatColor.BLUE, "This is message blue color");
+			
+			// Red Color
+			capi.red(sender, "Red Message");
+			
+			// MAGIC
+			capi.magic(sender, "Magic Message");
+			
+			// Broadcast
+			capi.broadcast("Broadcast Message");
+			
+			// 
+			
+			return true;
+		}
+		return true;
+	}
+}
 ```
