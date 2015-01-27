@@ -2,6 +2,7 @@
 Example Plugin ChatAPI Bukkit
 # Install
 You can download this plugin from <a href="#">Bukkit Page</a> and <a href="#">Spigot Page</a><br>
+Install the plugin to folder /plugin from server file
 Import the file from IDE With:<br>
 <ul>
   <li>Eclipse: Right Mouse to Project -> Properties -> Java Build Path -> Add External JARs -> Select ChatAPI.jar -> OK</li>
