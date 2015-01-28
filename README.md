@@ -73,7 +73,12 @@ public class example extends JavaPlugin{
 			// Broadcast
 			capi.broadcast("Broadcast Message");
 			
-			// 
+			// Green Color
+			capi.green(sender, "Green Message");
+			
+			// Yellow
+			capi.yellow(sender, "Yellow Message");
+			
 			
 			return true;
 		}
